@@ -1,13 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Information from './components/Form'
-function Sample(props)
-{
-    var x=props.name
-    if(x==='gokul'){
-        return(<Information hi={x}/>)
-    }
-    
-}
+import Sample from './topics/conditionalrendering'
+
 const root=ReactDOM.createRoot(document.getElementById('root'))
-root.render(<Sample name="gokul"/>)
+root.render(<Sample name="ReactJS"/>)
+/*Place <Sample name="ReactJS"/> for executing conditional rendering*/
